@@ -1,0 +1,16 @@
+# this is now not in use. Info in front matter of contact pages. 
+
+text:
+  form:
+    name-label:
+      en: "Your name"
+      es: "Tu nombre"
+    email-label:
+      en: "Your email"
+      es: "Tu email"
+    message-label: 
+      en: "Your message"
+      es: "Tu mensage"
+    send-button:
+      en: "Send"
+      es: "Enviar"

@@ -1,0 +1,10 @@
+<nav class="{{include.nav-class}}">
+	{% for line in site.data.navigation %}
+		<a class="nav__link {% if page.name_en==line.name_en %}current-page{% endif %}" 
+			href={% if page.lang=="es" %}"{{ line.slug_es }}"{% else %}"{{ line.slug_en }}"{% endif %}>
+			{% if page.lang=="es" %}{{ line.name_es }}{% else %}{{ line.name_en }}{% endif %}
+		</a>
+	{% endfor %}
+	<!-- nav above is a for loop over navigation.csv. if lang==es show spanish name, else show english name-->
+	<!-- <a href="es/" class="lang-switcher">espa&ntilde;ol</a> -->
+</nav>

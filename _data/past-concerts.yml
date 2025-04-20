@@ -1,0 +1,914 @@
+
+
+- 2025-03-22-maxability:
+  title: 
+    en: "Maxability"
+    es: "Maxability"
+  tagline:
+    en: Maxability is a charity dedicated to helping disabled adults through pottery classes.
+    es: Maxability es una organización sin ánimo de lucro decicada a ayudar a adultos con discapacidades mediante clases de cerámica.
+  image-path: /images/concerts/maxability-logo.png
+  date-time: 
+    en: "22 March 2025"
+    es: "22 de marzo 2025"
+  venue: 
+    name: 
+      en: 
+      es: 
+    address:
+      en:
+      - near Arnos Grove
+      - North London 
+      es:
+  programme: 
+    en: 
+      - "Beethoven: Trio in B flat op. 97, Archduke"
+      - "Brahms: Trio no. 1 in B major, op. 8"
+    es: 
+      - "Beethoven: Trio en Si bemol op. 97, Archiduque"
+      - "Brahms: Trio no. 1 en Si mayor"
+  more-info-link-path: https://maxability.org.uk/concerts/
+  homepage-title: 
+    en: "Maxability"
+    es: "Maxability"
+  homepage-line1: 
+    en: "22 March 2025"
+    es: "22 de marzo 2025"
+  homepage-line2: 
+    en: Brahms and Beethoven
+    es: Brahms y Beethvoen
+  homepage-more-info-link: true
+
+- 2025-02-27-harrow:
+  title: 
+    en: St John's Harrow
+    es: St John's Harrow
+  tagline:
+    en:
+    es:
+  image-path: /images/concerts/harrow.jpg
+  date-time: 
+    en: 27 February 2025
+    es: 27 de febrero 2025
+  venue: 
+    name: 
+     en: St Jonh's Church, Harrow
+     es: St Jonh's Church, Harrow
+    address:
+      en:
+        - Church of St John the Baptist
+        - Sheepcote Road
+        - Harrow HA1 2JE
+        - United Kingdom
+      es:
+        - Church of St John the Baptist
+        - Sheepcote Road
+        - Harrow HA1 2JE
+        - United Kingdom      
+  programme: 
+    en:
+      - "Beethoven: Trio op. 1 no. 1 in E flat"
+      - "Brahms: Trio no.1 in B major op. 8"
+    es:
+      - "Beethoven: Trio en Mi bemol op. 1 no. 1"
+      - "Brahms: Trio no. 1 en Si mayor, op. 8"
+  more-info-link-path: 
+  homepage-title: 
+    en: "St John's Harrow"
+    es: "St John's Harrow"
+  homepage-line1: 
+    en: 27 February 2025
+    es: 27 de febrero 2025
+  homepage-line2: 
+    en: 
+    es: 
+  homepage-more-info-link: true
+
+- 2024-11-25-stanmore:
+  title: 
+    en: "B'nai B'rith Yitzchak Rabin"
+    es: "B'nai B'rith Yitzchak Rabin"
+  tagline:
+    en: 
+    es:
+  image-path: /images/concerts/bbrabin.jpg
+  date-time: 
+    en: "25 November 2025"
+    es: "25 de noviembre 2025"
+  venue: 
+    name: 
+      en: "B'nai B'rith Yitzchak Rabin Lodge"
+      es: "B'nai B'rith Yitzchak Rabin Lodge"
+    address:
+      en:
+      - Stanmore      
+      es:
+      - Stanmore
+  programme: 
+    en:
+      - programme including
+      - "Beethoven: Trio in C minor, op. 1 no. 3 "
+    es:
+      - el programa incluye
+      - "Beethoven: Trio en Do menor, op. 1 no. 3 "
+  more-info-link-path: https://bbrabin.co.uk/
+  homepage-title: 
+    en: B'nai B'rith Yitzchak Rabin Lodge
+    es: B'nai B'rith Yitzchak Rabin Lodge
+  homepage-line1: 
+    en: 
+    es: 
+  homepage-line2: 
+    en: 25 November 2024
+    es: 25 de noviembre 2024
+  homepage-more-info-link: true
+
+- 2023-10-16-witham-urc:
+  title: 
+    en: Witham United Reformed Church
+    es: Witham United Reformed Church
+  tagline:
+    en:
+    es: 
+  image-path: /images/concerts/lily2.jpg
+  date-time: 
+    en: 16 September 2024
+    es: 16 septiembre 2024
+  venue: 
+    name: 
+     en: United Reformed Church, Witham
+     es: United Reformed Church, Witham
+    address:
+      en:
+        - 90 Newland Street
+        - Witham CM8 1AH
+        - United Kingdom
+      es:
+  programme:
+    en: 
+    es: 
+  more-info-link-path:
+  homepage-title: 
+    en: Witham URC
+    es: Witham URC
+  homepage-line1: 
+    en: Monday 16 September - 1pm
+    es: Lunes 16 de septiembre - 13:00
+  homepage-line2: 
+    en: 
+    es: 
+  homepage-more-info-link: false  
+
+- 2023-07-07-Goodnestone:
+  title: 
+    en: Goodnestone Music
+    es: Goodnestone Music
+  tagline:
+    en:
+    es:
+  image-path: /images/concerts/goodnestone.jpg
+  date-time: 
+    en: 23 August 2024
+    es: 23 de agosto 2024
+  venue: 
+    name: 
+     en: Holy Cross Church, Goodnestone
+     es: Holy Cross Church, Goodnestone
+    address:
+      en:
+        - Holy Cross Church
+        - Goodnestone
+        - Kent CT3 1PL
+      es:
+        - Holy Cross Church
+        - Goodnestone
+        - Kent CT3 1PL
+  programme: 
+    en:
+      - "Mendelssohn: Trio no. 2 in C minor"
+      - "Brahms: Trio no. 1 in B major"
+    es:
+      - "Mendolssohn: Trio no. 2 en Do menor"
+      - "Brahms: Trio no. 1 en Si mayor"
+  more-info-link-path: "https://www.goodnestonemusic.com/concerts2.html"
+  homepage-title: 
+    en: Goodnestone Music
+    es: Goodnestone Music
+  homepage-line1: 
+    en: "23 August"
+    es: "23 de agosto"
+  homepage-line2: 
+    en: "Mendelssohn and Brahms"
+    es: "Mendelssohn y Brahms"
+  homepage-more-info-link: true
+
+- 2023-01-24-stanmore:
+  title: 
+    en: "B'nai B'rith Yitzchak Rabin"
+    es: "B'nai B'rith Yitzchak Rabin"
+  tagline:
+    en: 
+    es:
+  image-path: /images/concerts/bbrabin.jpg
+  date-time: 
+    en: "18 April 2024"
+    es: "18 de abril 2024"
+  venue: 
+    name: 
+      en: "B'nai B'rith Yitzchak Rabin Lodge"
+      es: "B'nai B'rith Yitzchak Rabin Lodge"
+    address:
+      en:
+      - Stanmore      
+      es:
+      - Stanmore
+  programme: 
+    en:
+      - "W A Mozart: Trio in G major, K 564"
+      - "J. Brahms: Trio no. 1 in B major, op. 8"
+    es:
+      - "W A Mozart: Trio en Sol mayor, K 564"
+      - "F. Schubert: Trio no. 1 en Si mayor, op.8"
+  more-info-link-path: https://bbrabin.co.uk/
+  homepage-title: 
+    en: 
+    es: 
+  homepage-line1: 
+    en: Mozart and Brahms in Stanmore
+    es: Mozart y Brahms en Stanmore
+  homepage-line2: 
+    en: 18 April 2024
+    es: 18 de abril 2024
+  homepage-more-info-link: true
+
+- 2024-01-27-st-marys-perivale:
+  title: 
+    en: "St Mary's Perivale"
+    es: "St Mary's Perivale"
+  tagline:
+    en:
+    es:
+  image-path: /images/concerts/st-marys-perivale.jpg
+  date-time: 
+    en: "Sunday 5 May 2024 - 3:00 pm"
+    es: "Domingo 5 de mayo 2024 - 15:00"
+  venue: 
+    name: 
+      en: St Mary's Perivale
+      es: St Mary's Perivale
+    address: 
+      en: 
+        - Perivale Lane
+        - Perivale UB6 8SS
+        - United Kingdom
+      es:
+        - Perivale Lane
+        - Perivale UB6 8SS
+        - Reino Unido
+  programme: 
+    en: tbc
+    es: por confirmar
+  more-info-link-path: 
+  homepage-title: 
+    en: "St Mary's Perivale"
+    es: "St Mary's Perivale"
+  homepage-line1: 
+    en: "Sunday 5 May"
+    es: "Domingo 5 de mayo"
+  homepage-line2: 
+    en: 
+    es: 
+  homepage-more-info-link: true
+
+- 2024-02-15-lo-rat-penat:
+  title: 
+    en: "Mes que Musica"
+    es: "Mes que Musica"
+  tagline:
+    en: 
+    es: 
+  image-path: /images/concerts/lily1.jpg
+  date-time: 
+    en: "Thursday 15 February  2024"
+    es: "Jueves 15 de febrero 2024"
+  venue: 
+    name: 
+      en: Lo Rat Penat
+      es: Lo Rat Penat
+    address:
+      en: 
+        - Valencia
+        - Spain
+      es: 
+        - Valencia
+  programme: 
+    en: 
+      - "W A Mozart: Trio in G major, K 564"
+      - "F. Schubert: Trio no. 2 in E flat major"
+    es: 
+      - "W A Mozart: Trio en Sol mayor, K 564"
+      - "F. Schubert: Trio no. 2 en Mi bemol mayor"
+  more-info-link-path: https://www.eventbrite.es/e/entradas-trio-cygnus-mozart-y-schubert-795187105037
+  homepage-title: 
+    en: Lo Rat Penat, Valencia
+    es: Lo Rat Penat, Valencia
+  homepage-line1: 
+    en: "15 February"
+    es: "15 de febrero"
+  homepage-line2: 
+    en: Mozart and Brahms 
+    es: Mozart y Brahms
+  homepage-more-info-link: true
+
+- 2024-02-03-maxability:
+  title: 
+    en: "Maxability"
+    es: "Maxability"
+  tagline:
+    en: Maxability is a charity dedicated to helping disabled adults through pottery classes.
+    es: Maxability es una organización sin ánimo de lucro decicada a ayudar a adultos con discapacidades mediante clases de cerámica.
+  image-path: /images/concerts/maxability-logo.png
+  date-time: 
+    en: "Saturday 3 February  2024 - 7:00pm"
+    es: "Sábado 3 de febrero 2024 - 19:00"
+  venue: 
+    name: 
+      en: 
+      es: 
+    address:
+      en:
+      - near Arnos Grove
+      - North London 
+      es:
+  programme: 
+    en: 
+      - "J. Brahms: Trio no. 1 in B major, op. 8"
+      - "F. Schubert: Trio no. 2 in E flat major"
+    es: 
+      - "J Brahms: Trio no. 1 en Si mayor, op. 8"
+      - "F. Schubert: Trio no. 2 en Mi bemol mayor"
+  more-info-link-path: https://maxability.org.uk/concerts/
+  homepage-title: 
+    en: "Maxability"
+    es: "Maxability"
+  homepage-line1: 
+    en: "3 February"
+    es: "3 de febrero"
+  homepage-line2: 
+    en: Brahms and Schubert
+    es: Brahms y Schubert
+  homepage-more-info-link: true
+
+- 2023-10-17-Stonegrove:
+  title: 
+    en: Stonegrove Serenade 
+    es: Stonegrove Serenade 
+  tagline:
+    en:
+    es:
+  image-path: /images/concerts/lily1.jpg
+  date-time: 
+    en: Tuesday 17 October 2023 - 1pm
+    es: Martes 17 de octubre 2023 - 13:00
+  venue: 
+    name: 
+     en: Edgware & Hendon Refrom Synagogue
+     es: Edgware & Hendon Refrom Synagogue
+    address:
+      en:
+        - 180 Stonegrove
+        - HA8 8AB Edgware
+        - 
+      es:
+        - 180 Stonegrove
+        - HA8 8AB Edgware
+        - Reino Unido
+  programme: 
+    en: "Works by Haydn and Beethoven"
+    es: "Obras de Haydn y Beethoven"
+  more-info-link-path: https://www.ehrs.uk/event/stonegrove-serenade-october-2023/
+  homepage-title: 
+    en: Stonegrove Serenade
+    es: Stonegrove Serenade
+  homepage-line1: 
+    en: Tuesday 17 October - 1pm
+    es: Martes 17 de octubre - 13:00
+  homepage-line2: 
+    en: "Works by Haydn and Beethoven"
+    es: "Obras de Haydn y Beethoven"
+  homepage-more-info-link: true
+
+- 2023-10-16-witham-urc:
+  title: 
+    en: Witham United Reformed Church
+    es: Witham United Reformed Church
+  tagline:
+    en:
+    es: 
+  image-path: /images/concerts/lily2.jpg
+  date-time: 
+    en: 16 October 2023
+    es: 16 de Octubre 2023
+  venue: 
+    name: 
+     en: United Reformed Church, Witham
+     es: United Reformed Church, Witham
+    address:
+      en:
+        - 90 Newland Street
+        - Witham CM8 1AH
+        - United Kingdom
+      es:
+  programme:
+    en: "Works by Haydn and Beethoven"
+    es: "Obras de Haydn y Beethoven"
+  more-info-link-path:
+  homepage-title: 
+    en: Witham URC
+    es: Witham URC
+  homepage-line1: 
+    en: Monday 16 October - 1pm
+    es: Lunes 16 de octubre - 13:00
+  homepage-line2: 
+    en: "Works by Haydn and Beethoven"
+    es: "Obras de Haydn y Beethoven"
+  homepage-more-info-link: false  
+
+- 2023-09-14-stanmore:
+  title: 
+    en: "B'nai B'rith Yitzchak Rabin"
+    es: "B'nai B'rith Yitzchak Rabin"
+  tagline:
+    en: 
+    es:
+  image-path: /images/concerts/bbrabin.jpg
+  date-time: 
+    en: "14 September 2023"
+    es: "14 de septiembre de 2023"
+  venue: 
+    name: 
+      en: "B'nai B'rith Yitzchak Rabin Lodge"
+      es: "B'nai B'rith Yitzchak Rabin Lodge"
+    address:
+      en:
+      - Stanmore      
+      es:
+      - Stanmore
+  programme: 
+    en:
+      - "Mozart: Trio in E major K.542"
+      - "E. Fernandez Arbos: Tres Piezas en Estilo Español"
+    es:
+      - "Mozart: Trio en Mi mayor K.542"
+      - "E. Fernandez Arbos: Tres Piezas en Estilo Español"
+  more-info-link-path: https://bbrabin.co.uk/
+  homepage-title: 
+    en: Yitzchak Rabin Lodge, Stanmore
+    es: Yitzchak Rabin Lodge, Stanmore
+  homepage-line1: 
+    en: 14 September
+    es: 14 de septiembre
+  homepage-line2: 
+    en: Works by Mozart and Fernández Arbós
+    es: Obras de Mozart y Fernández Arbós
+  homepage-more-info-link: true
+
+- 2023-07-07-Goodnestone:
+  title: 
+    en: Goodnestone Music
+    es: Goodnestone Music
+  tagline:
+    en:
+    es:
+  image-path: /images/concerts/goodnestone.jpg
+  date-time: 
+    en: Friday 7 July 2023 - 7:30pm
+    es: Viernes 7 de julio 2023 - 19:30
+  venue: 
+    name: 
+     en: Holy Cross Church, Goodnestone
+     es: Holy Cross Church, Goodnestone
+    address:
+      en:
+        - Holy Cross Church
+        - Goodnestone
+        - Kent CT3 1PL
+      es:
+        - Holy Cross Church
+        - Goodnestone
+        - Kent CT3 1PL
+  programme: 
+    en:
+      - "Enrique Fenández Arbós: Tres Piezas en estilo Español"
+      - "J. Turina: Trio no. 2 in B minor"
+      - "M. Ravel: Trio in A minor"
+    es:
+      - "Enrique Fenández Arbós: Tres Piezas en estilo Español"
+      - "J. Turina: Trio no. 2 en Si menor"
+      - "M. Ravel: Trio en La menor"
+  more-info-link-path: http://www.goodnestonemusic.com/concerts.html
+  homepage-title: 
+    en: Goodnestone Music
+    es: Goodnestone Music
+  homepage-line1: 
+    en: "Friday 7 July"
+    es: "Viernes 7 de Julio"
+  homepage-line2: 
+    en: "Works by E. Fernández-Arbós, <br> J. Turina and M. Ravel"
+    es: "Obras de E. Fenrández Arbós, <br> J. Turina y M. Ravel"
+  homepage-more-info-link: true
+
+- 2023-06-08-harrow:
+  title: 
+    en: St John's Harrow
+    es: St John's Harrow
+  tagline:
+    en:
+    es:
+  image-path: /images/concerts/harrow.jpg
+  date-time: 
+    en: Thursday 8 June 2023 - 12:30pm
+    es: Jueves 8 de junio 2023 - 12:30
+  venue: 
+    name: 
+     en: St Jonh's Church, Harrow
+     es: St Jonh's Church, Harrow
+    address:
+      en:
+        - Church of St John the Baptist
+        - Sheepcote Road
+        - Harrow HA1 2JE
+        - United Kingdom
+      es:
+        - Church of St John the Baptist
+        - Sheepcote Road
+        - Harrow HA1 2JE
+        - United Kingdom      
+  programme: 
+    en:
+      - "Enrique Fenández Arbós: Tres Piezas en estilo Español"
+      - "J. Turina: Trio no. 2 in B minor"
+      - "M. Ravel: Trio in A minor"
+    es:
+      - "Enrique Fenández Arbós: Tres Piezas en estilo Español"
+      - "J. Turina: Trio no. 2 en Si menor"
+      - "M. Ravel: Trio en La menor"
+  more-info-link-path: http://www.stjohnsharrow.org/events/
+  homepage-title: 
+    en: "St John's Harrow"
+    es: "St John's Harrow"
+  homepage-line1: 
+    en: "Thursday 10 June"
+    es: "Jueves 10 de junio"
+  homepage-line2: 
+    en: "Works by E. Fernández-Arbós, <br> J. Turina and M. Ravel"
+    es: "Obras de E. Fenrández Arbós, <br> J. Turina y M. Ravel"
+  homepage-more-info-link: true
+
+- 2023-05-24-la-nau:
+  title: 
+    en: La Nau Concerts
+    es: Conciertos de La Nau
+  tagline:
+    en:
+    es:
+  image-path: /images/concerts/la-nau.jpg
+  date-time: 
+    en: Wednesday 24 May 2023 - 7:00pm
+    es: Miércoles 24 de mayo 2023 - 19:00
+  venue: 
+    name: 
+     en: La Nau Cultural Centre, University of Valencia
+     es: Capilla de la Sapiencia, Centro Culural La Nau
+    address:
+      en:
+      es:
+        - "c/de la Universitat 2"
+        - "Valencia"
+  programme: 
+    en:
+      - "Enrique Fenández Arbós: Tres Piezas en estilo Español"
+      - "J. Turina: Trio no. 2 in B minor"
+      - "M. Ravel: Trio in A minor"
+    es:
+      - "Enrique Fenández Arbós: Tres Piezas en estilo Español"
+      - "J. Turina: Trio no. 2 en Si menor"
+      - "M. Ravel: Trio en La menor"
+  more-info-link-path: https://events.fundacio.es/e/1629/cygnus-trio
+  homepage-title: 
+    en: "La Nau"
+    es: "La Nau"
+  homepage-line1: 
+    en: "Wednesday 24 May"
+    es: "Miércoles 24 de mayo"
+  homepage-line2: 
+    en: "Works by E. Fernández-Arbós, <br> J. Turina and M. Ravel"
+    es: "Obras de E. Fenrández Arbós, <br> J. Turina y M. Ravel"
+  homepage-more-info-link: false
+
+- 2023-05-20-witham-URC:
+  title: 
+    en: Concert in support of House of Grace
+    es: Concierto para la asociación House of Grace
+  tagline:
+    en:
+    es:
+  image-path: /images/concerts/witham-urc.jpg
+  date-time: 
+    en: Saturday 20 May 2023 - 7:30pm
+    es: Sábado 20 de mayo 2023 - 19:30
+  venue: 
+    name: 
+     en: United Reformed Church, Witham
+     es: United Reformed Church, Witham
+    address:
+      en:
+        - 90 Newland Street
+        - Witham CM8 1AH
+        - United Kingdom
+      es:
+  programme: 
+    en:
+      - "Enrique Fenández Arbós: Tres Piezas en estilo Español"
+      - "J. Turina: Trio no. 2 in B minor"
+      - "M. Ravel: Trio in A minor"
+    es:
+      - "Enrique Fenández Arbós: Tres Piezas en estilo Español"
+      - "J. Turina: Trio no. 2 en Si menor"
+      - "M. Ravel: Trio en La menor"
+  more-info-link-path: 
+  homepage-title: 
+    en: "Witham URC"
+    es: "Witham URC"
+  homepage-line1: 
+    en: "Saturday 20 May"
+    es: "Sábado 20 de mayo"
+  homepage-line2: 
+    en: "Works by E. Fernández-Arbós, <br> J. Turina and M. Ravel"
+    es: "Obras de E. Fenrández Arbós, <br> J. Turina y M. Ravel"
+  homepage-more-info-link: false
+
+- 2023-04-16-st-marys-perivale:
+  title: 
+    en: "St Mary's Perivale"
+    es: "St Mary's Perivale"
+  tagline:
+    en:
+    es:
+  image-path: /images/concerts/st-marys-perivale.jpg
+  date-time: 
+    en: "Sunday 16 April 2023 - 3:00 pm"
+    es: "Domingo 16 de abril 2023 - 15:00"
+  venue: 
+    name: 
+      en: St Mary's Perivale
+      es: St Mary's Perivale
+    address: 
+      en: 
+        - Perivale Lane
+        - Perivale UB6 8SS
+        - United Kingdom
+      es:
+        - Perivale Lane
+        - Perivale UB6 8SS
+        - Reino Unido
+  programme: 
+    en:
+      - "Enrique Fenández Arbós: Tres Piezas en estilo Español"
+      - "F. Mendelssohn: Trio no.1 in D minor op.49"
+    es:
+      - "Enrique Fenández Arbós: Tres Piezas en estilo Español"
+      - "F. Mendelssohn: Trio no.1 en Re menor op.49"
+  more-info-link-path: https://www.st-marys-perivale.org.uk/events-2023-04-16.shtml
+  homepage-title: 
+    en: "St Mary's Perivale"
+    es: "St Mary's Perivale"
+  homepage-line1: 
+    en: "Sunday 16 April"
+    es: "Domingo 16 de abril"
+  homepage-line2: 
+    en: "Works by E. Fernández-Arbós <br>and Mendelssohn"
+    es: "Obras de E. Fenrández Arbós <br>y Mendelssohn"
+  homepage-more-info-link: true
+
+- 2023-01-24-stanmore:
+  title: 
+    en: "B'nai B'rith Yitzchak Rabin"
+    es: "B'nai B'rith Yitzchak Rabin"
+  tagline:
+    en: 
+    es:
+  image-path: /images/concerts/bbrabin.jpg
+  date-time: 
+    en: "24 January 2023"
+    es: "24 de enero 2023"
+  venue: 
+    name: 
+      en: "B'nai B'rith Yitzchak Rabin Lodge"
+      es: "B'nai B'rith Yitzchak Rabin Lodge"
+    address:
+      en:
+      - Stanmore      
+      es:
+      - Stanmore
+  programme: 
+    en:
+      - "J. Turina: Trio No. 2 in B minor Op. 76"
+      - "Tchaikovsky: Trio in A minor Op. 50"
+    es:
+      - "J. Turina: Trio No. 2 en Si menor Op. 76"
+      - "Tchaikovsky: Trio en La minor Op. 50"
+  more-info-link-path: https://bbrabin.co.uk/
+  homepage-title: 
+    en: 
+    es: 
+  homepage-line1: 
+    en: 
+    es: 
+  homepage-line2: 
+    en: 
+    es: 
+  homepage-more-info-link: true
+
+- 2022-06-18-maxability:
+  title: 
+    en: "Concert for Maxability"
+    es: "Concierto para Maxability"
+  tagline:
+    en: 
+    es:
+  image-path: /images/concerts/maxability-logo.png
+  date-time: 
+    en: "Saturday 18 June 2022 - 7:30pm"
+    es: "Sábado 18 de junio 2022 - 19:30"
+  venue: 
+    name: 
+      en: 
+      es: 
+    address:
+      en:
+      - near Arnos Grove
+      - North London 
+      es:
+  programme: 
+    en:
+      - "Beethoven: Trio in D major Op. 70 No. 1 'Ghost'"
+      - "Tchaikovsky: Trio in A minor Op. 50"
+    es:
+      - "Beethoven: Trio en Re mayor Op. 70 No. 1 'Ghost'"
+      - "Tchaikovsky: Trio en La minor Op. 50"
+  more-info-link-path: https://maxability.org.uk/concerts/
+  homepage-title: 
+    en: "Maxability"
+    es: "Maxability"
+  homepage-line1: 
+    en: "Saturday 18 June"
+    es: "Sábado 18 de junio"
+  homepage-line2: 
+    en: "Tchaikovsky Trio in A minor"
+    es: "Tchaikovsky Trio en La menor"
+  homepage-more-info-link: true
+
+- 2022-05-28-witham-urc:
+  title: 
+    en: Concert in support of House of Grace
+    es: Concierto para la asociación House of Grace
+  tagline:
+    en:
+    es: 
+  image-path: /images/concerts/house-of-grace-concert.jpg
+  date-time: 
+    en: Saturday 28 May 2022 - 7:30pm
+    es: Sábado 28 de mayo 2022 - 19:30
+  venue: 
+    name: 
+     en: United Reformed Church, Witham
+     es: United Reformed Church, Witham
+    address:
+      en:
+        - 90 Newland Street
+        - Witham CM8 1AH
+        - United Kingdom
+      es:
+  programme:
+    en:
+      - "Beethoven: Selection of Scottish Songs"
+      - "P. I. Tchaikovsky: Trio in A minor"
+    es:
+      - "Beethoven: Selección de Canciones Escocesas"
+      - "Tchaikovsky: Trio en La menor"
+  more-info-link-path:
+
+- 2021-12-15-private-concerts:
+  title: 
+    en: Private Concert
+    es: Concierto Privado
+  tagline:
+    en:
+    es:
+  image-path: "https://media.wired.com/photos/59326c6058b0d64bb35d1809/master/pass/Kakapo-2.jpg"
+  date-time: 
+    en: 16 December 2021
+    es: 16 de diciembre 2021
+  venue: 
+    name: 
+      en: 
+      es: 
+    address:
+      en:
+      es:
+  programme:
+    en:
+      - "R. Schumann: Trio no.1 in D minor op.63"
+      - "F. Mendelssohn: Trio no.1 in D minor op.49" 
+    es: 
+      - "R Schumann: Trio en Re menor"
+      - "F. Mendelssohn: Trio en Re menor"
+
+- 2021-12-02-NNLS:
+  title: 
+    en: "Intermezzo Concert at New North London Synagogue"
+    es: "Intermezzo en New North London Synagogue"
+  image-path: https://images.shulcloud.com/1275/logo/1519309014.img
+  date-time: 
+    en: Thursday 2 December 2021 - 1:00pm
+    es: Jueves 2 de diciembre - 1:00pm
+  venue: 
+    name: 
+      en: New North London Synagogue
+      es: New North London Synagogue
+    address:
+      en:
+        - "80 East End Road"
+        - "London N3 2SY"
+      es:
+  programme:
+    en:
+      - "L. van Beethoven: Trio in D major op.70 no.1, 'Ghost'"
+      - "F. Mendelssohn: Trio no.1 in D minor op.49"
+    es:
+      - "L. van Beethoven: Trio en Re mayor op.70 no.1, 'Fantasma'"
+      - "F. Mendelssohn: Trio no.1 en Re menor op.49"
+  more-info-link-path: "https://www.mynnls.org.uk/event/Intermezzo"
+
+- 2021-11-08-witham-urc:
+  title: 
+    en: "Saint-Sa&euml;ns Centenary Concert"
+    es: "Concierto por el Centenario de Saint-Sa&euml;ns"
+  tagline: 
+    en: "In commemoration of the 100th anniversary of his death, we perform a programme of works by Camille Saint-Saëns."
+    es: "En conmemoraci&oacute;n del centenario de su muerte, interpretamos un programa con obras de Camille Saint-Saëns."
+  image-path: /images/concerts/saint-saens.png
+  date-time: 
+    en: Monday 8 November 2021 - 1:00pm
+    es: Lunes 8 de noviembre - 1:00pm
+  venue: 
+    name: 
+      en: United Reformed Church, Witham
+      es: United Reformed Church, Witham
+    address:
+      en:
+        - 90 Newland Street
+        - Witham CM8 1AH
+        - United Kingdom
+      es:
+  programme:
+    en:
+      - "Havanaise op.83"
+      - "Romance op.36"
+      - "Allegro Appassionato op. 43"
+      - "Trio no. 1 in F major, op.18"
+    es: 
+      - "Havanaise op.83"
+      - "Romance op.36"
+      - "Allegro Appassionato op. 43"
+      - "Trio no. 1 en Fa mayor, op.18"
+  more-info-link-path:
+
+- 2021-10-28-st-marys-perivale:
+  title: 
+    en: "Music at St Mary's Perivale"
+    es: "Music at St Mary's Perivale"
+  image-path: /images/concerts/st-marys-perivale.jpg
+  date-time: 
+    en: Thursday 28 October 2021 - 3:00pm
+    es: Jueves 28 de Octubre 2021 - 15:00
+  venue: 
+    name: 
+      en: St Mary's Perivale
+      es: St Mary's Perivale
+    address: 
+      en: 
+        - Perivale Lane
+        - Perivale UB6 8SS
+        - United Kingdom
+      es:
+  programme:
+    en:
+      - "L. van Beethoven: Trio in D major op.70 no.1, 'Ghost'"
+      - "R. Schumann: Trio no.1 in D minor op.63"
+    es: 
+      - "L. van Beethoven: Trio in D major op.70 no.1, 'Ghost'"
+      - "R. Schumann: Trio no.1 in D minor op.63"
+  more-info-link-path: https://www.st-marys-perivale.org.uk/events-2021-10-28.shtml
+

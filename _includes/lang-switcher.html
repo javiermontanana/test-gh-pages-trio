@@ -1,0 +1,18 @@
+
+<!-- <p><a href=" {% for line in site.data.slugs %} {% if line.name_en==page.name_en %} {{ line.rel_path }} {% endif %} {% endfor %}">EN</a> / ES</p> -->
+
+<!-- 
+    this is looping over the csv file, until it finds 
+    a match of the page. then goes to the rel path 
+    for the other language.     
+-->
+
+<div class="lang-switcher {{include.lang-switcher-class}}">
+    {% for line in site.data.navigation %}
+        {% if line.slug_en==page.slug %}
+            <p>ENG /<a class="lang-switcher__link" href="{{ line.slug_es }}"> ESP</a></p>
+        {% elsif line.slug_es==page.slug %}
+            <p><a class="lang-switcher__link" href="{{ line.slug_en }}">ENG </a>/ ESP</p>
+        {% endif %}
+    {% endfor %}
+</div>

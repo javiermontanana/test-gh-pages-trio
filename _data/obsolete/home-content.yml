@@ -1,0 +1,25 @@
+members-list:
+  - first:
+    en: "Javier Montañana, violin"
+    es: "Javier Montañana, violín"
+  - second:
+    en: "Hannah Lewis, cello"
+    es: "Hannah Lewis, violonchelo"
+  - third:
+    en: "Cesar Saura, piano"
+    es: "César Saura, piano"
+image:
+  src: "/images/home-image.jpg"
+  alt: "Cygnus Trio"
+widget-video:
+  title:
+    en: "Beethoven: Trio in D major op.70 no.1 'Ghost'"
+    es: "Beethoven: Trío en Re mayor op.70 no.1 'Fantasma'" 
+  youtube-id: Hn_SPmwn3MM
+widget-calendar:
+  title:
+    en: "Next Concert:"
+    es: "Próximo Concierto:"
+  link-text: 
+    en: "more info"
+    es: "más detalles"

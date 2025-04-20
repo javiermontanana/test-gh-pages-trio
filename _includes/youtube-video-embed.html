@@ -1,0 +1,6 @@
+<section class="video">
+    <h2 class="video__title">{% if page.lang=="es" %}{{ include.data.title_es }}{% else %}{{ include.data.title }}{% endif %}</h2>
+    <figure class="video__figure">
+        <iframe class="video-embed" src="https://www.youtube.com/embed/{{ include.data.youtube-id }}"></iframe>
+    </figure>
+</section>

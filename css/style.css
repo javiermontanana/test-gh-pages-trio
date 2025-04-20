@@ -1,0 +1,826 @@
+/* 
+for big comments 
+https://codepen.io/sakri/pen/AXvBmw
+*/
+
+:root {
+	--color-light-grey-bg: #eeeeee; /* for main bg and buttons! */
+	--color-dark-blue-bg: #1e3553; /* for header and footer bg */
+	--color-light-blue-bg: #cdd9e0; /* for widget calendar and contact form */
+
+	--clr-bg-header-footer: var(--color-dark-blue-bg);
+	--clr-bg-header: var(--clr-bg-header-footer);
+	--clr-bg-footer: var(--clr-bg-header-footer);
+	--clr-bg-main: var(--color-light-grey-bg);
+	--clr-bg-main-btn: var(--clr-bg-main);
+	--clr-bg-card: var(--color-light-blue-bg);
+	
+	--clr-header: white; 
+	--clr-footer: #cdd9e0; 
+	--clr-main: black;
+	--clr-h1: var(--color-dark-blue-bg); 
+	--clr-main-links: #b96800;
+	--clr-main-btn: #192b43;
+	
+	--ff-body: 'Roboto'; 
+	--ff-headings: 'Bodoni moda';
+	--ff-header-nav: 'Open sans'; 
+
+}
+
+
+/* standard preliminarie */
+
+* {
+	box-sizing: border-box;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, figure {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+
+
+
+.container{
+	width: 90%;
+	max-width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+
+/* main font families */
+
+body{
+	font-family: var(--ff-body);
+	font-size: 16px;
+	background-color: var(--clr-bg-main);
+}
+
+.header .logo, 
+h1, h2, h3, h4 {
+	font-family: var(--ff-headings);
+}
+
+
+
+
+/*
+
+//.......................................................................................
+//......fffffo...........................................................................
+//....fffffffo.........................................tt................................
+//....fffffffo.......................................tttt................................
+//...ffffffffo......................................ttttt................................
+//...fffff..........................................ttttt................................
+//...fffff..........................................ttttt................................
+//.ffffffffff......oooooo............oooooo.......tttttttttt.....eeeeee.......rrrr.rrrr..
+//.ffffffffff....oooooooooo........ooooooooooo....tttttttttt...eeeeeeeeee.....rrrrrrrrr..
+//.ffffffffff...ooooooooooooo.....ooooooooooooo...tttttttttt..eeeeeeeeeeee....rrrrrrrrr..
+//.ffffffffff..oooooooooooooo....ooooooooooooooo..tttttttttt.eeeeeeeeeeeeee...rrrrrrrrr..
+//...fffff....oooooo....oooooo...oooooo...oooooo....ttttt....eeeee....eeeee...rrrrrr.....
+//...fffff....ooooo......ooooo..oooooo.....oooooo...ttttt....eeeee.....eeee...rrrrr......
+//...fffff....ooooo......oooooo.ooooo.......ooooo...ttttt...eeeeeeeeeeeeeeee..rrrrr......
+//...fffff....ooooo.......ooooo.ooooo.......ooooo...ttttt...eeeeeeeeeeeeeeee..rrrrr......
+//...fffff....ooooo.......ooooo.ooooo.......ooooo...ttttt...eeeeeeeeeeeeeeee..rrrrr......
+//...fffff....ooooo.......ooooo.ooooo.......ooooo...ttttt...eeeeeeeeeeeeeeee..rrrrr......
+//...fffff....ooooo......oooooo.ooooo.......ooooo...ttttt...eeeee.............rrrrr......
+//...fffff....ooooo......ooooo..oooooo.....oooooo...ttttt....eeeee............rrrrr......
+//...fffff....oooooo....oooooo...oooooo...oooooo....ttttt....eeeeee...eee.....rrrrr......
+//...fffff.....oooooooooooooo....ooooooooooooooo....tttttttt.eeeeeeeeeeeeee...rrrrr......
+//...fffff......oooooooooooo......ooooooooooooo.....tttttttt..eeeeeeeeeeeee...rrrrr......
+//...fffff.......oooooooooo........ooooooooooo.......ttttttt...eeeeeeeeeee....rrrrr......
+//...fffff.........oooooo............oooooo...........tttttt.....eeeeeee......rrrrr......
+//.......................................................................................
+
+*/
+
+.footer {
+	background-color: var(--clr-bg-footer);
+	box-shadow: 0 50vh 0 50vh var(--clr-bg-footer);
+	color: var(--clr-footer);
+	/* fill: var(--clr-footer);  the fill for the svgs is defined in the .sm-button class */
+	font-size: 0.8rem;
+	font-weight: 200;
+	letter-spacing: 1.4px;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin-top: 0rem;
+}
+
+.footer__flexbox {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.footer__nav {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.sm-button {
+	fill: var(--clr-footer);
+}
+
+.footer__sm-links {
+	margin-bottom: 0.5em;
+	min-width: 87px;
+}
+
+.footer__sm-links__buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 1em;
+}
+
+.footer__sm-links__button {
+	width: 25px;
+}
+
+.footer__sm-links__title,
+.footer__nav a,
+.footer__lang-switcher__title {
+	/* text-decoration: none; */
+	margin-bottom: 0.5em;
+	/* color: inherit; unnecessary */
+	/* font-weight: inherit; */
+	/* font-size: inherit; */
+	/* letter-spacing: inherit; */
+}
+
+.footer a {
+	color: inherit;
+}
+
+.footer a:hover {
+	opacity: 0.75;
+}
+
+.footer__lang-switcher {
+	text-align: right;
+}
+
+.footer__lang-switcher a {
+	/* text-decoration: none; */
+	font-weight: 600;
+}
+
+
+
+
+/*//...............................................................
+//.HHH.....HHH............................ddd....................
+//.HHH.....HHH............................ddd....................
+//.HHH.....HHH............................ddd....................
+//.HHH.....HHH...eeeee.....aaaaaa....dddddddd...eeeee....errrrr..
+//.HHH.....HHH..eeeeeeee..eaaaaaaa..adddddddd..deeeeeee..errrrr..
+//.HHHHHHHHHHH..eee..eee..eaa..aaa..addd.dddd..dee..eee..errr....
+//.HHHHHHHHHHH.Heee..eee.....aaaaa.aadd...ddd.ddee..eee..err.....
+//.HHHHHHHHHHH.Heeeeeeeee.eaaaaaaa.aadd...ddd.ddeeeeeeee.err.....
+//.HHH.....HHH.Heeeeeeeeeeeaaa.aaa.aadd...ddd.ddeeeeeeee.err.....
+//.HHH.....HHH.Heee......eeaa..aaa.aadd...ddd.ddee.......err.....
+//.HHH.....HHH..eee..eee.eeaa.aaaa..addd.dddd..dee..eee..err.....
+//.HHH.....HHH..eeeeeeee.eeaaaaaaa..adddddddd..deeeeeee..err.....
+//.HHH.....HHH...eeeeee...eaaaaaaaa..dddddddd...eeeeee...err.....
+//...............................................................
+*/
+
+
+header {
+	/* background-image: linear-gradient(#1e3553, #1e3553, #416088); */
+	/* background-color: #192b43; */
+	
+	background-color: var(--clr-bg-header);
+	margin-bottom: 0rem;
+}
+
+.header .logo {
+	padding: 0.3em 0 0.2em;
+	text-align: center;
+	font-size: 3.7rem;
+}
+
+.header__nav {
+	/* display: flex;
+	flex-direction: column;
+	align-items: center; */
+	display: grid;
+	grid-template-columns: 50% 50%;
+	font-size: 1rem;
+}
+
+.header__nav > a:nth-child(odd){
+	margin-right: auto;
+}
+.header__nav > a:nth-child(even){
+	margin-left: auto;
+}
+
+
+.logo a,
+.header__nav a {
+	color: var(--clr-header);
+	/* text-decoration: none; */
+}
+
+.header .nav__link {
+	font-family: var(--ff-header-nav);
+}
+
+
+.header__nav a {
+	display: inline-block;
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	margin-bottom: 0.8em;
+	padding-top: 2px;
+	padding-bottom: 0.2em;
+/*	border-radius: 0.5em;
+	padding: 1em 0em;*/
+}
+
+.header__nav a:hover,
+.header__nav a:focus,
+.header__nav .current-page {
+	border-bottom: 2px solid var(--clr-bg-main);
+	padding-top: 0;
+}
+
+.header__lang-switcher {
+	position: absolute;
+	top: 15px;
+	right: 0px;
+	color: var(--color-light-blue-bg);
+	font-weight: 600;
+}
+.header__lang-switcher a {
+	color: var(--clr-header);
+}
+
+/* 
+
+//................................................................................
+//.hhhhh..........................................................................
+//.hhhhh..........................................................................
+//.hhhhh..........................................................................
+//.hhhhh..........................................................................
+//.hhhhh..........................................................................
+//.hhhhh..........................................................................
+//.hhhhh.hhhhhh..........oooooo........ommmm..mmmmm....mmmmm..........eeeee.......
+//.hhhhhhhhhhhhh.......ooooooooooo.....ommmmmmmmmmmm.mmmmmmmm.......eeeeeeeee.....
+//.hhhhhhhhhhhhhh.....ooooooooooooo....ommmmmmmmmmmmmmmmmmmmmm.....eeeeeeeeeeee...
+//.hhhhhhhhhhhhhh....hoooooooooooooo...ommmmmmmmmmmmmmmmmmmmmmm...meeeeeeeeeeee...
+//.hhhhhh...hhhhhh...hooooo...oooooo...ommmmm...mmmmmmm..mmmmmm..mmeeee...eeeeee..
+//.hhhhh.....hhhhh..hhoooo.....oooooo..ommmmm...mmmmmm....mmmmm..mmeee.....eeeee..
+//.hhhhh.....hhhhh..hhooo.......ooooo..ommmm....mmmmmm....mmmmm..mmeeeeeeeeeeeee..
+//.hhhhh.....hhhhh..hhooo.......ooooo..ommmm....mmmmmm....mmmmm..mmeeeeeeeeeeeee..
+//.hhhhh.....hhhhh..hhooo.......ooooo..ommmm....mmmmm.....mmmmm..mmeeeeeeeeeeeee..
+//.hhhhh.....hhhhh..hhooo.......ooooo..ommmm....mmmmm.....mmmmm..mmeeeeeeeeeeeee..
+//.hhhhh.....hhhhh..hhooo.......ooooo..ommmm....mmmmm.....mmmmm..mmeee............
+//.hhhhh.....hhhhh..hhoooo.....oooooo..ommmm....mmmmm.....mmmmm..mmeee............
+//.hhhhh.....hhhhh...hooooo...oooooo...ommmm....mmmmm.....mmmmm..mmeeee....ee.....
+//.hhhhh.....hhhhh...hoooooooooooooo...ommmm....mmmmm.....mmmmm...meeeeeeeeeeeee..
+//.hhhhh.....hhhhh....ooooooooooooo....ommmm....mmmmm.....mmmmm....eeeeeeeeeeeee..
+//.hhhhh.....hhhhh.....ooooooooooo.....ommmm....mmmmm.....mmmmm.....eeeeeeeeeee...
+//.hhhhh.....hhhhh.......oooooo........ommmm....mmmmm.....mmmmm.......eeeeee......
+//................................................................................
+
+*/
+
+.home-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin:  0 -1rem;
+}
+
+.members-list {
+	padding: 0;
+	margin: 0 2rem;
+	margin-bottom: 3rem;
+	text-align: center;
+	font-size: 1.3rem;
+	letter-spacing: 0.02em;
+	font-weight: 400;
+	flex-basis: 120%;
+}
+
+.members-list li {
+	margin: 1em 0;
+}
+
+.home-image {
+	margin: 0 1rem;
+	flex-basis: 260%;
+}
+
+
+.widget-video {
+	margin: 0 1rem;
+	margin-bottom: 2rem;
+	flex-basis: 80%;
+	flex-shrink: 1;
+}
+
+.widget-calendar {
+	width: auto;
+	flex-shrink: 0;
+	margin: 0 1rem;
+	margin-bottom: 2rem;
+	background-color: #cdd9e0;
+	padding: 3.5rem 0.7rem;
+	border-radius: 1rem;
+}
+
+.widget-calendar__title {
+	font-family: var(--ff-body); /* overriding --ff-headings */
+	font-size: 0.9rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 0.8px;
+	margin-bottom: 0.3em;
+}
+
+
+.widget-calendar__concert-title {
+	font-size: 1.4rem;
+	font-weight: 600;
+	margin-bottom: 1em;
+}
+
+.widget-calendar__concert-body {
+	font-size: 1.1rem;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+	margin-bottom: 1em;
+	/* line-height: 1.4; */
+}
+
+.widget__calendar__more-info {
+	text-align: right;
+	margin-bottom: 0.5em;
+}
+
+.widget-video__title {
+	font-size: 1.7rem;
+	margin-bottom: 0.5em;
+}
+
+
+/* 
+
+//.................................................................................................
+//...................iiiii..............ddddd......................................................
+//...................iiiii..............ddddd......................................................
+//...................iiiii..............ddddd......................................................
+//...................iiiii..............ddddd......................................................
+//......................................ddddd......................................................
+//......................................ddddd......................................................
+//.vvvvv......vvvvv..iiiii.......ddddd..ddddd.......eeeee............oooooo..........ssssssss......
+//.vvvvv......vvvvv..iiiii.....dddddddddddddd.....eeeeeeeee........oooooooooo.......sssssssssss....
+//.vvvvvv.....vvvvv..iiiii....ddddddddddddddd....eeeeeeeeeeee.....ooooooooooooo....sssssssssssss...
+//..vvvvv....vvvvvv..iiiii....ddddddddddddddd...eeeeeeeeeeeee....oooooooooooooo...ssssssssssssss...
+//..vvvvv....vvvvv...iiiii...dddddd...ddddddd..eeeeee...eeeeee..oooooo....oooooo..sssss....sssss...
+//...vvvvv...vvvvv...iiiii...ddddd.....dddddd..eeeee.....eeeee..ooooo......ooooo..ssssss....ss.....
+//...vvvvv..vvvvv....iiiii...ddddd......ddddd..eeeeeeeeeeeeeee..ooooo......oooooo.sssssssss........
+//...vvvvv..vvvvv....iiiii...ddddd......ddddd..eeeeeeeeeeeeeee..ooooo.......ooooo.ssssssssssss.....
+//....vvvvv.vvvvv....iiiii...ddddd......ddddd..eeeeeeeeeeeeeee..ooooo.......ooooo..sssssssssssss...
+//....vvvvvvvvvv.....iiiii...ddddd......ddddd..eeeeeeeeeeeeeee..ooooo.......ooooo....sssssssssss...
+//.....vvvvvvvvv.....iiiii...ddddd......ddddd..eeeee............ooooo......oooooo.......sssssssss..
+//.....vvvvvvvv......iiiii...ddddd.....dddddd..eeeee............ooooo......ooooo....ss......sssss..
+//.....vvvvvvvv......iiiii...dddddd...ddddddd..eeeeee....ee.....oooooo....oooooo.osssss....ssssss..
+//......vvvvvvv......iiiii....ddddddddddddddd...eeeeeeeeeeeeee...oooooooooooooo...sssssssssssssss..
+//......vvvvvv.......iiiii....ddddddddddddddd....eeeeeeeeeeeee....oooooooooooo....ssssssssssssss...
+//......vvvvvv.......iiiii.....dddddddddddddd.....eeeeeeeeeee......oooooooooo......ssssssssssss....
+//.......vvvvv.......iiiii.......ddddd..ddddd.......eeeeee...........oooooo...........sssssss......
+//.................................................................................................
+
+*/
+
+.album__flexbox{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.album__sidebar{
+	margin-bottom: 1em;
+}
+
+.album-embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 60%;
+	width: 100%;
+	border: none;
+}
+
+.album-figure {
+	width: 100%;
+	padding-top: 60%;
+	position: relative;
+}
+
+.album__image {
+	margin-bottom: 2em;
+}
+
+
+
+.video-embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+
+
+.video__figure {
+	padding-top: 56.52%;
+	position: relative;
+}
+
+.video {
+	margin-bottom: 10%;
+}
+
+.video__title {
+	margin-bottom: 1.5rem;
+}
+
+/*----------------------------------------------*/
+
+/*flex-row is not a good name*/
+.flex-row {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 4rem;
+}
+
+
+
+
+
+/* 
+
+
+//...................................................................................
+//..................bbbbb............................................................
+//..................bbbbb......................................................tt....
+//..................bbbbb....................................................tttt....
+//..................bbbbb...................................................ttttt....
+//..................bbbbb...................................................ttttt....
+//..................bbbbb...................................................ttttt....
+//.....aaaaaaa......bbbbb..bbbbb...........oooooo........uuuuu.....uuuuu..utttttttt..
+//...aaaaaaaaaaa....bbbbbbbbbbbbbb.......oooooooooo......uuuuu.....uuuuu..utttttttt..
+//..aaaaaaaaaaaaa...bbbbbbbbbbbbbbb.....ooooooooooooo....uuuuu.....uuuuu..utttttttt..
+//.aaaaaaaaaaaaaa...bbbbbbbbbbbbbbbb...oooooooooooooo....uuuuu.....uuuuu..utttttttt..
+//.aaaaa....aaaaa...bbbbbbb...bbbbbb..booooo....oooooo...uuuuu.....uuuuu....ttttt....
+//...aaa....aaaaa...bbbbbb.....bbbbb..boooo......ooooo...uuuuu.....uuuuu....ttttt....
+//.........aaaaaa...bbbbbb.....bbbbb..boooo......oooooo..uuuuu.....uuuuu....ttttt....
+//....aaaaaaaaaaa...bbbbb......bbbbb..boooo.......ooooo..uuuuu.....uuuuu....ttttt....
+//..aaaaaaaaaaaaa...bbbbb......bbbbb..boooo.......ooooo..uuuuu.....uuuuu....ttttt....
+//.aaaaaaaaaaaaaa...bbbbb......bbbbb..boooo.......ooooo..uuuuu.....uuuuu....ttttt....
+//.aaaaaaa..aaaaa...bbbbbb.....bbbbb..boooo......oooooo..uuuuu.....uuuuu....ttttt....
+//.aaaaa....aaaaa...bbbbbb.....bbbbb..boooo......ooooo...uuuuu....uuuuuu....ttttt....
+//.aaaaa...aaaaaa...bbbbbbb...bbbbbb..booooo....oooooo...uuuuuu...uuuuuu....ttttt....
+//.aaaaaaaaaaaaaa...bbbbbbbbbbbbbbb....oooooooooooooo....uuuuuuuuuuuuuuu....ttttttt..
+//.aaaaaaaaaaaaaa...bbbbbbbbbbbbbbb.....oooooooooooo......uuuuuuuuuuuuuu....ttttttt..
+//..aaaaaaaaaaaaaa..bbbbbbbbbbbbbb.......oooooooooo.......uuuuuuuuuuuuuu.....tttttt..
+//...aaaaaa..aaaaa..bbbbb..bbbbb...........oooooo...........uuuuu..uuuuu......ttttt..
+//...................................................................................
+
+
+*/
+
+.about__flexbox{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.trio-biography, 
+.bio-include p,
+.album__text p {
+	/* line-height: 1.8; */
+	margin-bottom: 1em;
+}
+
+
+
+
+/* 
+
+//.......................................................................................
+//...............................................t..................................t....
+//.............................................ttt................................ttt....
+//............................................tttt...............................tttt....
+//............................................tttt...............................tttt....
+//....cccccc........ooooo......onnn.nnnnn....nttttttt...aaaaaa........cccccc...cctttttt..
+//...cccccccc.....ooooooooo....onnnnnnnnnnn..nttttttt..aaaaaaaaa.....cccccccc..cctttttt..
+//..cccccccccc...ooooooooooo...onnnnnnnnnnn..nttttttt.aaaaaaaaaa....cccccccccc.cctttttt..
+//.cccccccccccc..oooooooooooo..onnnnnnnnnnn..nttttttt.aaaa..aaaaa..accccccccccccctttttt..
+//.ccccc..ccccc.coooo...ooooo..onnnn...nnnn...tttt....aaa....aaaa..acccc..ccccc..tttt....
+//.cccc....cc...cooo.....oooo..onnnn...nnnn...tttt........aaaaaaa..accc....cc....tttt....
+//.cccc.........cooo.....oooo..onnn....nnnn...tttt.....aaaaaaaaaa..accc..........tttt....
+//.cccc.........cooo.....oooo..onnn....nnnn...tttt....aaaaaaaaaaa..accc..........tttt....
+//.cccc....cc...cooo.....oooo..onnn....nnnn...tttt...taaaaa..aaaa..accc....cc....tttt....
+//.ccccc..ccccc.coooo...ooooo..onnn....nnnn...tttt...taaa...aaaaa..acccc..ccccc..tttt....
+//.cccccccccccc..oooooooooooo..onnn....nnnn...ttttttttaaaa..aaaaa..accccccccccc..tttttt..
+//..cccccccccc...ooooooooooo...onnn....nnnn...ttttttttaaaaaaaaaaa...cccccccccc...tttttt..
+//...ccccccccc....ooooooooo....onnn....nnnn....tttttt.aaaaaaaaaaa....ccccccccc...tttttt..
+//....cccccc........ooooo......onnn....nnnn.....ttttt..aaaaa.aaaa.....cccccc.......tttt..
+//.......................................................................................
+
+*/
+
+
+.contact__text {
+	margin-bottom: 2rem;
+	flex-basis: 120%;
+}
+
+.contact__body {
+	/* line-height: 1.4em; */
+	margin-bottom: 1.4em;
+}
+
+.emails-list {
+	padding-left: 1.7em;
+}
+
+.emails-list li {
+	/* line-height: 1.4em; */
+	margin-bottom: 1em;
+}
+
+form {
+	flex-basis: 100%;
+}
+
+input,
+textarea {
+	font-family: var(--ff-body);
+	width: 100%;
+	margin: 12px 0;
+	background-color: var(--clr-bg-card);
+	border: none;
+	padding: 12px;
+}
+label {
+	font-weight: 600;
+	padding: 5px;
+}
+
+
+
+
+/*
+//........................................................................................
+//.MMMMMM......MMMMMM....................AAAAA.............. IIII.........NNNNN.....NNNN..
+//.MMMMMMM.....MMMMMM...................AAAAAAA............. IIII.........NNNNN.....NNNN..
+//.MMMMMMM....MMMMMMM...................AAAAAAA............. IIII.........NNNNNN....NNNN..
+//.MMMMMMM....MMMMMMM...................AAAAAAA............. IIII.........NNNNNNN...NNNN..
+//.MMMMMMM....MMMMMMM..................AAAAAAAAA............ IIII.........NNNNNNN...NNNN..
+//.MMMMMMMM..MMMMMMMM..................AAAA.AAAA............ IIII.........NNNNNNNN..NNNN..
+//.MMMMMMMM..MMMMMMMM..................AAAA.AAAAA........... IIII.........NNNNNNNN..NNNN..
+//.MMMMMMMM..MMM.MMMM.................AAAAA.AAAAA........... IIII.........NNNNNNNNN.NNNN..
+//.MMMMMMMMM.MMM.MMMM.................AAAA...AAAA........... IIII.........NNNN.NNNNNNNNN..
+//.MMMMMMMMMMMMM.MMMM.................AAAA...AAAAA.......... IIII.........NNNN.NNNNNNNNN..
+//.MMMMMMMMMMMMM.MMMM................AAAAAAAAAAAAA.......... IIII.........NNNN..NNNNNNNN..
+//.MMMM..MMMMMMM.MMMM................AAAAAAAAAAAAA.......... IIII.........NNNN..NNNNNNNN..
+//.MMMM..MMMMMM..MMMM................AAAAAAAAAAAAAA......... IIII.........NNNN...NNNNNNN..
+//.MMMM..MMMMMM..MMMM............... AAAAAAAAAAAAAA......... IIII.........NNNN....NNNNNN..
+//.MMMM..MMMMMM..MMMM............... AAA.......AAAAA........ IIII.........NNNN....NNNNNN..
+//.MMMM...MMMMM..MMMM.............. AAA.......AAAAA........ IIII.........NNNN.....NNNNN..
+//.MMMM...MMMM...MMMM.............. AAA........AAAA........ IIII.........NNNN.....NNNNN..
+//.MMMM...MMMM...MMMM.............. AA.........AAAAA....... IIII.........NNNN......NNNN..
+//........................................................................................*/
+
+main {
+	padding: 5rem 0 5rem;
+	line-height: 1.8em; /* this is meant to substitute all the line height rules */
+}
+
+h1{
+	color: var(--clr-h1);
+	font-size: 2rem;
+	font-weight: 300;
+	margin-top: 0em;
+	margin-bottom: 1.9em ;
+}
+
+main a {
+	font-weight: bold;
+	color: var(--clr-main-links);
+}
+
+
+.btn--send, .btn--show-hide {
+	color: var(--clr-main-btn);
+	padding: 1em 2em;
+	border-radius: 1.8em;
+	border: solid var(--clr-main-btn) 2px;
+	background-color: var(--clr-bg-main-btn);
+	font-weight: 600;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+
+/*for concert programmes and members-list*/
+.indent-wrapped {
+    padding-left: 0.5em;
+    text-indent: -0.5em;
+}
+
+
+
+
+/*
+//.....................................................................................................
+//...................................................................................t.................
+//.................................................................................ttt.................
+//................................................................................tttt.................
+//................................................................................tttt.................
+//....cccccc........ooooo......onnn.nnnnn........cccccc.......eeeee......rrrrrrrrrttttttt...ssssss.....
+//...cccccccc.....ooooooooo....onnnnnnnnnnn....ccccccccc....eeeeeeeee....rrrrrrrrrttttttt.ssssssssss...
+//..cccccccccc...ooooooooooo...onnnnnnnnnnn...ccccccccccc..ceeeeeeeeee...rrrrrrrrrttttttt.ssssssssss...
+//.cccccccccccc..oooooooooooo..onnnnnnnnnnn...ccccccccccc..ceeeeeeeeee...rrrrrrrrrttttttttsss...sssss..
+//.ccccc..ccccc.coooo...ooooo..onnnn...nnnn...cccc...ccccc.ceee...eeeee..rrrrr....tttt...tsssss..ssss..
+//.cccc....cc...cooo.....oooo..onnnn...nnnn..ncccc...ccc..cceeeeeeeeeee..rrrr.....tttt...tsssssssss....
+//.cccc.........cooo.....oooo..onnn....nnnn..nccc.........cceeeeeeeeeee..rrrr.....tttt....ssssssssss...
+//.cccc.........cooo.....oooo..onnn....nnnn..nccc.........cceeeeeeeeeee..rrrr.....tttt.....ssssssssss..
+//.cccc....cc...cooo.....oooo..onnn....nnnn..ncccc....cc..cceee..........rrrr.....tttt.......ssssssss..
+//.ccccc..ccccc.coooo...ooooo..onnn....nnnn...cccc...ccccc.ceee...eeee...rrrr.....tttt...tsss....ssss..
+//.cccccccccccc..oooooooooooo..onnn....nnnn...cccccccccccc.ceeeeeeeeee...rrrr.....ttttttttssss...ssss..
+//..cccccccccc...ooooooooooo...onnn....nnnn...ccccccccccc..ceeeeeeeeee...rrrr.....ttttttt.sssssssssss..
+//...ccccccccc....ooooooooo....onnn....nnnn....ccccccccc....eeeeeeeee....rrrr......tttttt..sssssssss...
+//....cccccc........ooooo......onnn....nnnn......cccccc.......eeeee......rrrr.......ttttt...ssssss.....
+//.....................................................................................................
+*/
+
+
+.past-concerts-title-line {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+
+.concert {
+	margin-bottom: 5rem;
+}
+
+.concert__title {
+	font-size: 2rem;
+	margin-bottom: 1em;
+}
+
+/*margin from text both in row and col directions*/
+.concert__img {
+	margin-right: 2rem;
+	margin-bottom: 1rem;
+	width: 100%;
+	flex-shrink: 1.4;
+}
+
+.concert__text {
+	width: 100%;
+	flex-shrink: 1;
+	/* line-height: 1.5; */
+}
+
+.concert__body {
+	display:  flex;
+	flex-direction: column;
+}
+
+.concert__date-time {
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+.concert__description {
+	font-weight: 400;
+	max-width: 65ch;
+	margin-bottom: 1em;
+}
+
+.concert__venue {
+	font-weight: bold;
+
+}
+
+.concert__venue-address {
+	margin-bottom: 1em;
+}
+
+.concert__programme__heading {
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.concert__programme__list {
+	margin-bottom: 1em;
+}
+
+
+
+
+
+
+/*
+//.......................................................................
+//............................................dddd...iiii................
+//............................................dddd...iiii................
+//............................................dddd...iiii................
+//............................................dddd...iiii................
+//.mmmm.mmmm....mmmm.......eeeee.........dddd.dddd...iiii.....aaaaaa.....
+//.mmmmmmmmmmmmmmmmmm.....eeeeeeee.....ddddddddddd...iiii...aaaaaaaaa....
+//.mmmmmmmmmmmmmmmmmmm...eeeeeeeeee...dddddddddddd...iiii..iaaaaaaaaaa...
+//.mmmmmmmmmmmmmmmmmmm..meeeeeeeeee...dddddddddddd...iiii..iaaa..aaaaa...
+//.mmmmm..mmmmm...mmmm..meee...eeeee..dddd...ddddd...iiii..iaaa...aaaa...
+//.mmmm...mmmmm...mmmm..meeeeeeeeeee.edddd....dddd...iiii.......aaaaaa...
+//.mmmm...mmmmm...mmmm..meeeeeeeeeee.eddd.....dddd...iiii...aaaaaaaaaa...
+//.mmmm...mmmmm...mmmm..meeeeeeeeeee.edddd....dddd...iiii..iaaaaaaaaaa...
+//.mmmm...mmmmm...mmmm..meee.........edddd....dddd...iiii..iaaaaa.aaaa...
+//.mmmm...mmmmm...mmmm..meeee..eeeee..dddd...ddddd...iiii.iiaaa...aaaa...
+//.mmmm...mmmmm...mmmm..meeeeeeeeeee..dddddddddddd...iiii.iiaaa..aaaaa...
+//.mmmm...mmmmm...mmmm...eeeeeeeeee...dddddddddddd...iiii..iaaaaaaaaaa...
+//.mmmm...mmmmm...mmmm....eeeeeeee.....ddddddddddd...iiii..iaaaaaaaaaa...
+//.mmmm...mmmmm...mmmm.....eeeeee........dddd.dddd...iiii...aaaaa..aaaa..
+//.......................................................................*/
+
+
+
+
+
+@media (min-width: 700px), (orientation: landscape) {
+	.header__nav {
+		display: flex;
+		/* flex-direction: row; */
+		justify-content: space-between;
+	}
+	.header__nav > a:nth-child(even),
+	.header__nav > a:nth-child(odd) {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.about__flexbox,
+	.album__flexbox {
+		flex-direction: row;
+	}
+	.about__image,
+	.album__sidebar {
+		margin-left: 2em;
+		margin-bottom: 1em;
+	}
+	.contact__text {
+		margin-right: 2rem;
+	}
+
+	.concert__body {
+		flex-direction: row;
+
+	}
+
+	.flex-row {
+		flex-direction: row;
+	}
+
+	.members-list {
+		text-align: left;
+		margin-bottom: 0;
+	}	
+
+}

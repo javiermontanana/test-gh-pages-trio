@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="container">
+    <main>
+        <h1 class="page-title">{{ page.title }}</h1>
+        {% for item in site.data.videos %}
+            <section class="video">
+                <h2 class="video__title">{{ item.title[page.lang] }}</h2>
+                <figure class="video__figure">
+                    <iframe class="video-embed" src="https://www.youtube.com/embed/{{ item.youtube-id }}"></iframe>
+                </figure>
+            </section>
+        {% endfor %}    
+    </main>
+</div>

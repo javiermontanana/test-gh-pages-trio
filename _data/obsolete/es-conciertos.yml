@@ -1,0 +1,83 @@
+# - 2021-10-28-st-marys-perivale:
+#   title: "Music at St Mary's Perivale"
+#   image-path: /images/st-marys-perivale.jpg
+#   date-time: Thursday 28 October 2021 - 3:00pm
+#   venue: 
+#     name: St Mary's Perivale
+#     address:
+#       line1: Perivale Lane
+#       line2: Perivale UB6 8SS
+#       line3: United Kingdom
+#       line4:  
+#       line5: 
+#   programme:
+#     - "L. van Beethoven: Trio in D major op.70 no.1, 'Ghost'"
+#     - "R. Schumann: Trio no.1 in D minor op.63"
+#   more-info-link-path: https://www.st-marys-perivale.org.uk/events-2021-10-28.shtml
+
+- 2021-11-08-witham-urc:
+  title: "Concierto por el Centenario de Saint-Sa&euml;ns"
+  description: "En conmemoraci&oacute;n del centenario de su muerte, interpretamos un programa con obras de Camille Saint-Saens."
+  image-path: /images/saint-saens.png
+  date-time: Lunes 8 de noviembre - 1:00pm
+  venue: 
+    name: United Reformed Church, Witham
+    address:
+      line1: 90 Newland Street
+      line2: Witham CM8 1AH
+      line3: Reino Unido
+      line4:  
+      line5: 
+  programme:
+    - "Havanaise op.83"
+    - "Romance op.36"
+    - "Allegro Appassionato op. 43"
+    - "Trio no. 1 en Fa mayor, op.18"
+  more-info-link-path:
+
+- 2021-12-02-NNLS:
+  title: "Intermezzo en New North London Synagogue"
+  image-path: https://images.shulcloud.com/1275/logo/1519309014.img
+  date-time: Jueves 2 de diciembre - 1:00pm
+  venue: 
+    name: New North London Synagogue
+    address:
+      line1: "80 East End Road"
+      line2: "London N3 2SY"
+      line3: "Reino Unido"
+      line4:  
+      line5: 
+  programme:
+    - "L. van Beethoven: Trio en Re mayor op.70 no.1, 'Fantasma'"
+    - "F. Mendelssohn: Trio no.1 en Re menor op.49"
+  more-info-link-path: "https://www.mynnls.org.uk/event/Intermezzo"
+
+- 2021-12-15-private-concerts:
+  title: Conciertos Privados
+  image-path: "https://media.wired.com/photos/59326c6058b0d64bb35d1809/master/pass/Kakapo-2.jpg"
+  date-time: 15 y 16 de diciembre de 2021
+  venue: 
+    name: 
+    address:
+      line1: 
+      line2: 
+      line3: 
+  programme:
+    - "R. Schumann: Trio no.1 en Re menor op.63"
+    - "F. Mendelssohn: Trio no.1 en Re menor op.49" 
+
+- 2022-06-18-maxability:
+  title: Concierto para Maxability
+  image-path: https://maxability.org.uk/wp-content/uploads/2021/03/cropped-logo-ksiega-znaku-09.png
+  date-time: S&aacute;bado 18 de junio de 2022 - 7:30pm
+  venue: 
+    name:
+    address:
+      line1: cerca de Arnos Grove 
+      line2: Londres 
+      line3: Reino Unido
+      line4:  
+      line5: 
+  programme:
+    - "P. I. Tchaikovsky: Trio en La menor"
+  more-info-link-path: https://maxability.org.uk/concerts/

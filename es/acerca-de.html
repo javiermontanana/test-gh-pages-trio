@@ -1,0 +1,13 @@
+---
+title: "Acerca del Trío"
+name_en: "about"
+layout: about-page
+lang: es
+filename: acerca-de.html
+slug: /es/acerca-de
+---
+
+<div class="bio-include">
+  {% capture biography %}{% include biographies/biografia-trio.md %}{% endcapture %}
+  {{ biography | markdownify }}
+</div>

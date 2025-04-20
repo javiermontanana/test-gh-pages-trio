@@ -1,0 +1,47 @@
+- home:
+  slug:
+    en: "/"
+    es: "es/"
+  name: 
+    en: "home"
+    es: "inicio"
+
+- about:
+  slug:
+    en: "/about"
+    es: "es/acerca-de"
+  name:
+    en: "about"
+    es: "acerca-de"
+
+- videos:
+  slug:
+    en: "/videos"
+    es: "/es/videos"
+  name:
+    en: "videos"
+    es: "v&iacute;deos"
+
+- album:
+  slug:
+    en: "/album"
+    es: "/es/album"
+  name:
+    en: "album"
+    es: "álbum"
+
+- concerts:
+  slug:
+    en: "/concerts"
+    es: "/es/conciertos"
+  name:
+    en: "concerts"
+    es: "conciertos"
+
+- contact:
+  slug:
+    en: "/contact"
+    es: "/es/contacto"
+  name:
+    en: "contact"
+    es: "contacto"

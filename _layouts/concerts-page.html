@@ -1,0 +1,105 @@
+---
+layout: default
+---
+
+<div class="container">
+    <main>
+    
+        <!-- <h1 class="page-title">Concerts</h1> -->
+    
+
+        
+    <!-- <div class="past-concerts-title-line">
+            <h1>{{ page.text.past }}</h1>
+            <button id="show-hide-button" class="btn--show-hide" onclick="toggleShowPastConcerts()"> {{ page.text.btn-show }} </button>
+        </div> -->
+    
+    
+        <div id="past-concerts" style="display: none">
+        {% for concert in site.data.past-concerts %}
+        <section class="concert">
+            <h2 class="concert__title">{{concert.title[page.lang]}}</h2>
+            <div class="concert__body">
+                <div class="concert__img">
+                    <img src={{concert.image-path}}>
+                </div>
+                <div class="concert__text">
+                    <div class="concert__details">
+                      <h3 class="concert__date-time">{{concert.date-time[page.lang]}}</h3>
+                    <p class="concert__description">{{concert.tagline[page.lang]}}</p>
+                      <p class="concert__venue">{{concert.venue.name[page.lang]}}</p>
+                  </div>
+                  <div class="concert__programme">
+                        <p class="concert__programme__heading">{{ page.text.programme }}</p>
+                        <ol class="concert__programme__list">
+                            {% for item in concert.programme[page.lang] %}
+                            <li class="indent-wrapped">{{item}}</li>{% endfor %}
+                        </ol>
+                    </div>
+                    {% if concert.more-info-link-path %}
+                    <a class="concert__more-info-link" href="{{concert.more-info-link-path}}">{{ page.text.more-info-link }}</a>
+                    {% endif %}
+                </div>
+            </div>
+        </section>
+        {% endfor %}
+        </div>
+        <div class="upcoming-concerts-title-line">
+            <h1> {{ page.text.upcoming }} </h1>
+        </div>
+
+        <!-- this could be an include instead? -->
+        {% for concert in site.data.upcoming-concerts %}
+        <section class="concert">
+            <h2 class="concert__title">{{concert.title[page.lang]}}</h2>
+            <div class="concert__body">
+                <div class="concert__img">
+                    <img src={{concert.image-path}}>
+                </div>
+                <div class="concert__text">
+                    <div class="concert__details">
+                      <h3 class="concert__date-time">{{concert.date-time[page.lang]}}</h3>
+                    <p class="concert__description">{{concert.tagline[page.lang]}}</p>
+                      <p class="concert__venue">{{concert.venue.name[page.lang]}}</p>
+                      <p class="concert__venue-address">
+                        {% for line in concert.venue.address[page.lang] %}
+                            {{ line }} <br>
+                        {% endfor %}
+                      </p>
+                  </div>
+                  <div class="concert__programme">
+                        <p class="concert__programme__heading">{{ page.text.programme }}</p>
+                        <ol class="concert__programme__list">
+                            {% for item in concert.programme[page.lang] %}
+                            <li class="indent-wrapped">{{item}}</li>
+                            {% endfor %}
+                        </ol>
+                    </div>
+                    {% if concert.more-info-link-path %}
+                    <a class="concert__more-info-link" href="{{concert.more-info-link-path}}"> {{ page.text.more-info-link }} </a>
+                    {% endif %}
+                </div>
+            </div>
+        </section>
+        {% endfor %}
+    
+    
+        <script>
+            var counter = 0;
+    
+            function toggleShowPastConcerts() {
+                counter ++;
+                if (counter % 2 === 0) {
+                    document.getElementById("past-concerts").style.display="none";
+                    document.getElementById("show-hide-button").innerHTML="{{ page.text.btn-show }}";
+                } else {
+                    document.getElementById("past-concerts").style.display="block";
+                    document.getElementById("show-hide-button").innerHTML= "{{ page.text.btn-hide }}" ;
+                }
+            }
+                // putting the liquid tg inside quotes seems to work, miraculously!!
+    
+        </script>
+    
+    </main>
+    </div>

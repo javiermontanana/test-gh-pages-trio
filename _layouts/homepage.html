@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="container">
+    <main>
+        <div class="home-wrapper">
+            <div class="flex-row">
+                <ul class='members-list indent-wrapped'>
+                    <li>{{ page.text.members-list[0] }}</li>
+                    <li>{{ page.text.members-list[1] }}</li>
+                    <li>{{ page.text.members-list[2] }}</li>
+                </ul>
+                <div class="home-image">
+                    <img src="{{ page.text.image.src }}" alt="{{ page.text.image.alt }}">
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="widget-video">
+                    <h2 class="widget-video__title">{{ page.text.widget-video.title }}</h2>
+                    <figure class="video__figure">
+                        <iframe class="video-embed" src="https://www.youtube.com/embed/{{ page.text.widget-video.youtube-id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </figure>
+                </div>
+
+                <div class="widget-calendar">
+                    <h2 class="widget-calendar__title">{{ page.text.widget-calendar.title }}</h2>
+                    <h3 class="widget-calendar__concert-title">{{ site.data.upcoming-concerts[0].homepage-title[page.lang] }}</h3>
+                    <p class="widget-calendar__concert-body">
+                        {{ site.data.upcoming-concerts[0].homepage-line1[page.lang] }} <br>
+                        {{ site.data.upcoming-concerts[0].homepage-line2[page.lang] }}
+                    </p>
+                    {% if site.data.upcoming-concerts[0].homepage-more-info-link %}
+                    <p class="widget__calendar__more-info">
+                        <a class="concert__more-info-link" href="{{ site.data.upcoming-concerts[0].more-info-link-path }}">{{ page.text.widget-calendar.link-text }}</a>
+                    </p>
+                    {% endif %}
+                </div>
+            </div>
+      </div>
+    </main>
+    </div>

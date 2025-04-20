@@ -1,0 +1,13 @@
+---
+title: "About the Trio"
+name_en: "about"
+layout: about-page
+lang: en
+filename: about.html
+slug: /about
+---
+
+<div class="bio-include">
+  {% capture biography %}{% include biographies/trio-biography.md %}{% endcapture %}
+  {{ biography | markdownify }}
+</div>

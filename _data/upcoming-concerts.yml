@@ -1,0 +1,127 @@
+
+- 2025-04-30-hertford:
+  title: 
+    en: "Hertford Soundbites"
+    es: "Hertford Soundbites"
+  tagline:
+    en: 
+    es: 
+  image-path: /images/concerts/hertford-allsaints.jpg
+  date-time: 
+    en: "30 April 2025 - 1pm"
+    es: "30 de abril 2025 - 13:00h"
+  venue: 
+    name: 
+      en: All Saints Church, Hertford
+      es: All Saints Church, Hertford
+    address:
+      en:
+      - Queen's Road
+      - SG13 8AY
+      - Hertford
+      es:
+  programme: 
+    en: 
+      - "Enrique Fenrández Arbós: 3 original pieces in Spanish style op. 1"
+      - "M. Ravel: Trio in A minor"
+    es: 
+      - "Enrique Fenrández Arbós: 3 piezas originales en estilo español op. 1"
+      - "M. Ravel: Trio en La menor"
+  more-info-link-path: https://www.allsaintshertford.org/concerts.php
+  homepage-title: 
+    en: "Hertford Soundbites"
+    es: "Hertford Soundbites"
+  homepage-line1: 
+    en: "30 April - 1pm"
+    es: "30 de abril - 13:00h"
+  homepage-line2: 
+    en: Arbós Spanish pieces and Ravel
+    es: Arbós y Ravel
+  homepage-more-info-link: true
+
+
+- 2025-05-25-st-marys-perivale:
+  title: 
+    en: "St Mary's Perivale"
+    es: "St Mary's Perivale"
+  tagline:
+    en:
+    es:
+  image-path: /images/concerts/st-marys-perivale.jpg
+  date-time: 
+    en: 25 May 2025 - 3pm
+    es: 25 de mayo 2025 - 15:00h
+  venue: 
+    name: 
+      en: St Mary's Perivale
+      es: St Mary's Perivale
+    address: 
+      en: 
+        - Perivale Lane
+        - Perivale UB6 8SS
+        - United Kingdom
+      es:
+        - Perivale Lane
+        - Perivale UB6 8SS
+        - Reino Unido
+  programme: 
+    en: 
+      - "Joaquín Turina: Trio no. 2 in B minor op. 76"
+      - "Beethoven: Trio op. 97 in B flat, Archduke"
+    es: 
+      - "Joaquín Turina: Trio no. 2 en Si menor op. 76"
+      - "Beethoven: Trio op. 97 en Si bemol, Archiduque"
+  more-info-link-path: https://www.st-marys-perivale.org.uk/events-2025-05-25.shtml
+  homepage-title: 
+    en: "St Mary's Perivale"
+    es: "St Mary's Perivale"
+  homepage-line1: 
+    en: "Sunday 5 May"
+    es: "Domingo 5 de mayo"
+  homepage-line2: 
+    en: Turina and Beethoven
+    es: Turina y Beethoven
+  homepage-more-info-link: true
+
+
+
+- 2025-05-25-st-marys-perivale:
+  title: 
+    en: "Islington Festival - Impressions of Iberia"
+    es: "Islington Festival - Impressions of Iberia"
+  tagline:
+    en:
+    es:
+  image-path: /images/concerts/islington-festival-2-cropped.jpg
+  date-time: 
+    en: Saturday 19 July 2025
+    es: Sábado 19 de julio 2025
+  venue: 
+    name: 
+      en: Christchurch Highbury
+      es: Christchurch Highbury
+    address: 
+      en:
+        - 159 Highbury Grove
+        - London N5 1SA        
+      es:
+  programme: 
+    en: 
+      - "Enrique Fenrández Arbós: 3 original pieces in Spanish style op. 1"
+      - "Joaquín Turina: Trio no. 2 in B minor op. 76"
+      - "Maurice Ravel: Trio in A minor"
+    es: 
+      - "Enrique Fenrández Arbós: 3 piezas originales en estilo español op. 1"
+      - "Joaquín Turina: Trio no. 2 en Si menor op. 76"
+      - "Maurice Ravel: Trio en La menor"
+  more-info-link-path: https://www.islingtonfestival.com/programme2025.html
+  homepage-title: 
+    en: "St Mary's Perivale"
+    es: "St Mary's Perivale"
+  homepage-line1: 
+    en: "Saturday 19 July"
+    es: "Sábado 19 de julio"
+  homepage-line2: 
+    en: 
+    es: 
+  homepage-more-info-link: true
