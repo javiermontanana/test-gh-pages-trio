@@ -2,8 +2,8 @@ title: Cygnus Trio
 description: London-based piano trio formed in 2012
 theme: null
 
-
-
+url: https://javiermontanana.github.io
+baseurl: /test-gh-pages-trio
 
 # This caused links to break. They need to be fixed before setting
 
