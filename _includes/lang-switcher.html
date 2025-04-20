@@ -10,9 +10,9 @@
 <div class="lang-switcher {{include.lang-switcher-class}}">
     {% for line in site.data.navigation %}
         {% if line.slug_en==page.slug %}
-            <p>ENG /<a class="lang-switcher__link" href="{{ line.slug_es }}"> ESP</a></p>
+            <p>ENG /<a class="lang-switcher__link" href="{{site.baseurl}}{{ line.slug_es }}"> ESP</a></p>
         {% elsif line.slug_es==page.slug %}
-            <p><a class="lang-switcher__link" href="{{ line.slug_en }}">ENG </a>/ ESP</p>
+            <p><a class="lang-switcher__link" href="{{site.baseurl}}{{ line.slug_en }}">ENG </a>/ ESP</p>
         {% endif %}
     {% endfor %}
 </div>
