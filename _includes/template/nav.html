@@ -1,7 +1,7 @@
 <nav class="{{include.nav-class}}">
 	{% for line in site.data.navigation %}
 		<a class="nav__link {% if page.name_en==line.name_en %}current-page{% endif %}" 
-			href="{{site.baseurl}}{% if page.lang=="es" %}{{ line.slug_es }}"{% else %}"{{ line.slug_en }}"{% endif %}>
+			href={% if page.lang=="es" %}"{{ site.baseurl }}{{ line.slug_es }}"{% else %}"{{ site.baseurl }}{{ line.slug_en }}"{% endif %}>
 			{% if page.lang=="es" %}{{ line.name_es }}{% else %}{{ line.name_en }}{% endif %}
 		</a>
 	{% endfor %}
